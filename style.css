@@ -1,0 +1,61 @@
+.hero{
+    background-color: aqua;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(rhgkv9o2ticd1\ copy.png);
+    background: linear-gradient(to right, #8AB0AB, #3E505B, #26413C,#1A1D1A, #03120E);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width:768px)
+{
+
+.gradient-section{
+    background: linear-gradient(to bottom, #D5C5C8, #9DA3A4, #604D53, #DB7F8E, #FFDBDA);
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4rem 1rem;
+}
+}
+
+@media (min-width:768px)
+{
+
+.overlay-section{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 4rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+}
+footer{
+    text-align: center;
+}
+
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0%;
+}
+
+.soild-section h2{
+    color: #3E505B;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+html{
+    color: canvastext;
+}
